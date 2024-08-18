@@ -1,0 +1,52 @@
+.header {
+    background: #eeeff1;
+    max-height: 70px;
+    overflow-x: hidden;
+    &__box {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__wrapper {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        position: relative;
+
+    }
+    &__logo {
+        margin-top: 24px;
+        width: 126px;
+        height: 50px;
+    }
+    &__links {
+        padding: 17px 0px 17px 0px;
+        a {
+            padding-right: 40px;
+            font-weight: 500;
+            font-size: 15px;
+            text-decoration: none;
+            color: #1b1b1d; 
+        }
+    }    
+    &__busket {
+        padding-top: 40px;
+        width: 56px;
+        height: 56px;
+        cursor: pointer;
+    }
+    &__btn {
+        border-radius: 63px;
+        padding: 15px 30px;
+        height: 56px;
+        border: none;
+        box-shadow: 0 30px 60px 0 rgba(163, 168, 178, 0.15);
+        background: #1b1b1d;
+        font-weight: 500;
+        font-size: 15px;
+        text-transform: uppercase;
+        color: #fff;
+        white-space: nowrap;
+        margin: 15px 30px 15px 30px;
+        cursor: pointer;      
+    }     
+}

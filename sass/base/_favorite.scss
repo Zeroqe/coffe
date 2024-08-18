@@ -1,0 +1,36 @@
+.favorite {
+    margin-top: 268px;
+    overflow-x: hidden;
+    &__wrapper {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+    }
+    &__descr {
+      max-width: 512px;
+    }
+    &__title {
+      padding-bottom: 30px;
+      font-weight: 800;
+      font-size: 64px;
+      color: #1b1b1d;  
+    }
+    &__subtitle {
+      font-weight: 400;
+      font-size: 24px;
+      margin-bottom: 30px;
+      color: #64646a;  
+    }
+    &__btn {
+      border-radius: 126px;
+      padding: 20px 40px;
+      background: #1b1b1d;  
+      font-weight: 500;
+      font-size: 18px;
+      border: none;
+      text-transform: uppercase;
+      color: #fff; 
+      cursor: pointer;
+    }
+    
+}

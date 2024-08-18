@@ -1,0 +1,29 @@
+@import 'base/variables';
+* {
+    font-family: 'Jost', sans-serif;
+}
+body {
+    background: linear-gradient(135deg, #fff 0%, #fff 0%, rgba(243, 244, 245, 0.2) 11.74%, #f3f4f5 27.92%, rgba(243, 244, 245, 0) 44.79%, rgba(243, 244, 245, 0.68) 60.42%, #f3f4f5 79.17%, #fff 100%);
+    margin: 0;
+}
+.container {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+p {
+    padding: 0px;
+    margin: 0px;   
+}
+
+
+
+@import 'base/header';
+@import 'base/promo';
+@import 'base/menu';
+@import 'base/favorite';
+@import 'base/bests';
+@import 'base/home';
+@import 'base/reviews';
+@import 'base/footer';
+@import 'base/media';
